@@ -1,11 +1,10 @@
 var chocolate = ["snickers", "hundred grand","kitkat", "skittles"]
 
-  addElementToBeginningOfArray(array, element) {
+function addElementToBeginningOfArray(array, element) {
      ["Orange", ...addElementToBeginningOfArray]
 }
 
- destructivelyAddElementToBeginningOfArray(family, Meron) {
-     family = ["Senai", "Haile", "Sara", "Ariam"]
+ function destructivelyAddElementToBeginningOfArray(array, element) {
     destructivelyAddElementToBeginningOfArray.unshift("Meron")
   }
 
