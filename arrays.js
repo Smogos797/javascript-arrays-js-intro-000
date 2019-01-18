@@ -8,16 +8,14 @@ function addElementToBeginningOfArray(array, element) {
     destructivelyAddElementToBeginningOfArray.unshift("Meron")
   }
 
-var dessert = ["Cupcake", "Pie", "Ice Cream"]
-function addElementToEndOfArray(dessert, Cake){
 
+function addElementToEndOfArray(array, element){
     [...dessert, "Cake"]
     return addElementToEndOfArray
   }
 
-function destructivelyAddElementToEndOfArray(result, 91) {
-    result = [77, 88, 84]
-    result.push(91)
+function destructivelyAddElementToEndOfArray(array, element) {
+    destructivelyAddElementToEndOfArray.push(91)
   }
 
 function accessElementInArray(name, 1) {
