@@ -23,12 +23,11 @@ function accessElementInArray(name, 1) {
     console.log(name[1]);
   }
 
-function destructivelyRemoveElementFromBeginningOfArray(days) {
-    days = ["Monday", "Tuesday", "Wednesday"]
-    days.shift()
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+    destructivelyRemoveElementFromBeginningOfArray.shift()
   }
 
-function removeElementFromBeginningOfArray(time) {
+function removeElementFromBeginningOfArray(array) {
     var time = ["morning", "noon", "night"]
 
     time.shift(0)
@@ -36,13 +35,13 @@ function removeElementFromBeginningOfArray(time) {
     time
   }
 
-function destructivelyRemoveElementFromEndOfArray(lunch) {
+function destructivelyRemoveElementFromEndOfArray(array) {
     var lunch = ["hamburger", "pizza", "salad"]
     lunch.pop()
     lunch
   }
 
-function removeElementFromEndOfArray(flavor) {
+function removeElementFromEndOfArray(array) {
     flavor = ["vanilla", "chocolate", "strawberry"]
     flavor.slice(0, flavor.length - 1)
 
