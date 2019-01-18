@@ -1,44 +1,51 @@
-var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
-
-function addElementToBeginningOfArray(array, element) {
-  [1, ...addElementToBeginningOfArray]
-}
-function destructivelyAddElementToBeginningOfArray(array, element) {
-  destructivelyAddElementToBeginningOfArray.shift("New York")
-}
-function addElementToEndOfArray(array, element){
-  [...addElementToEndOfArray, "Cake"]
+var chocolate = ["snickers", "hundred grand","kitkat", "skittles"]
+  addElementToBeginningOfArray(array, element) {
+     ["Orange", ...addElementToBeginningOfArray]
 }
 
-function destructivelyAddElementToEndOfArray(array, element) {
-    destructivelyAddElementToEndOfArray.push(91)
+ destructivelyAddElementToBeginningOfArray(family, Meron) {
+     family = ["Senai", "Haile", "Sara", "Ariam"]
+    destructivelyAddElementToBeginningOfArray.unshift("Meron")
   }
 
-function accessElementInArray(array, element) {
+var dessert = ["Cupcake", "Pie", "Ice Cream"]
+function addElementToEndOfArray(dessert, Cake){
+
+    [...dessert, "Cake"]
+    return addElementToEndOfArray
+  }
+
+function destructivelyAddElementToEndOfArray(result, 91) {
+    result = [77, 88, 84]
+    result.push(91)
+  }
+
+function accessElementInArray(name, 1) {
     name = ["Megan", "Mike", "Maria"]
     console.log(name[1]);
   }
 
-function destructivelyRemoveElementFromBeginningOfArray(array) {
-    days = [1, 2, 3]
+function destructivelyRemoveElementFromBeginningOfArray(days) {
+    days = ["Monday", "Tuesday", "Wednesday"]
     days.shift()
   }
 
-function removeElementFromBeginningOfArray(array) {
-    var time = [1, 2, 3]
+function removeElementFromBeginningOfArray(time) {
+    var time = ["morning", "noon", "night"]
+
     time.shift(0)
 
     time
   }
 
-function destructivelyRemoveElementFromEndOfArray(array) {
-    var lunch = [1, 2, 3]
+function destructivelyRemoveElementFromEndOfArray(lunch) {
+    var lunch = ["hamburger", "pizza", "salad"]
     lunch.pop()
     lunch
   }
 
-function removeElementFromEndOfArray(array) {
-    flavor = [1, 2, 3]
+function removeElementFromEndOfArray(flavor) {
+    flavor = ["vanilla", "chocolate", "strawberry"]
     flavor.slice(0, flavor.length - 1)
 
   }
