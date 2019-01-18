@@ -1,2 +1,3 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
-function addElementToBeginningOfArray(array, element)
+ addElementToBeginningOfArray = ["Lime", "pine"]
+ function addElementToBeginningOfArray(array, element)
